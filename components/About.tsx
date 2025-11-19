@@ -25,13 +25,15 @@ const About = () => {
 
               <p>
                 Currently serving as <span className="text-gruvbox-green font-semibold">Founding Engineer at FIKA AI Research Lab</span>,
-                where I've contributed <span className="text-gruvbox-yellow font-bold">676+ commits in 2025</span> building
-                serverless workflow automation with LangGraph multi-agent orchestration.
+                where I've contributed <span className="text-gruvbox-yellow font-bold">676+ commits in 2025</span> architecting
+                a serverless event-driven workflow automation platform with Google Cloud Pub/Sub, FastAPI microservices, and
+                LangGraph for PRD-to-chatbot deployment in under 10 minutes.
               </p>
 
               <p>
-                Co-authored research paper submitted to <span className="text-gruvbox-aqua font-bold">NeurIPS 2025</span> Position Paper Track
-                with Prof. Mark Turner on cognitive AI systems and frame blending theory.
+                Active contributor to <span className="text-gruvbox-aqua font-bold">Red Hen Lab</span> (Case Western Reserve University)
+                on cognitive science research and <span className="text-gruvbox-purple font-bold">IIT Hyderabad</span> on
+                computer vision for warzone object detection with Detectron2.
               </p>
             </div>
           </div>
@@ -55,8 +57,8 @@ const About = () => {
                 <div className="flex items-start gap-3">
                   <span className="text-gruvbox-aqua">●</span>
                   <div>
-                    <p className="text-gruvbox-fg0 font-semibold">NeurIPS 2025 Researcher</p>
-                    <p className="text-gruvbox-fg4 text-xs">Frame Blending & Creative AI</p>
+                    <p className="text-gruvbox-fg0 font-semibold">Red Hen Lab Contributor</p>
+                    <p className="text-gruvbox-fg4 text-xs">Cognitive science & multimodal research</p>
                   </div>
                 </div>
 

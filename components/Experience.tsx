@@ -7,12 +7,12 @@ const experiences = [
   {
     icon: <FaRobot className="text-3xl" />,
     title: 'LangGraph Multi-Agent',
-    description: '676+ commits building serverless workflow automation',
+    description: 'Multi-agent orchestration with supervisor patterns',
   },
   {
     icon: <FaBrain className="text-3xl" />,
-    title: 'AI Research',
-    description: 'NeurIPS 2025 paper on cognitive AI systems',
+    title: 'Open Source Research',
+    description: 'Red Hen Lab & IIT Hyderabad contributions',
   },
   {
     icon: <FaServer className="text-3xl" />,
@@ -22,17 +22,17 @@ const experiences = [
   {
     icon: <FaDatabase className="text-3xl" />,
     title: 'Multi-Tenant Architecture',
-    description: 'PostgreSQL RLS, Qdrant, Redis hot-reload',
+    description: 'PostgreSQL RLS, Qdrant namespace isolation',
   },
   {
     icon: <FaCloud className="text-3xl" />,
     title: 'Cloud Infrastructure',
-    description: 'GCP, Kubernetes, Docker, Terraform',
+    description: 'GCP Pub/Sub, Kubernetes, Docker, Terraform',
   },
   {
     icon: <FaCode className="text-3xl" />,
     title: 'RAG Pipelines',
-    description: '1M+ tokens/month with ChromaDB & Gemini',
+    description: 'ChromaDB, FAISS, Qdrant with Gemini',
   },
 ];
 
@@ -82,9 +82,11 @@ const Experience = () => {
                 <span className="text-gruvbox-fg4 font-mono text-sm">Oct 2024 - Present</span>
               </div>
               <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
-                <li>Contributed 676+ commits architecting serverless platform with LangGraph</li>
-                <li>Multi-tenant architecture with PostgreSQL RLS, Qdrant, Redis hot-reload</li>
-                <li>AI conversational agents with Gemini + 71% test coverage</li>
+                <li>Architected serverless event-driven workflow automation platform with Google Cloud Pub/Sub, FastAPI microservices, and LangGraph multi-agent orchestration for PRD-to-chatbot deployment in under 10 minutes</li>
+                <li>Designed multi-tenant architecture with PostgreSQL RLS, Qdrant vector database namespace isolation, and Redis configuration hot-reload achieving zero-downtime updates</li>
+                <li>Built AI conversational agents with Google Gemini, LangChain for natural language configuration, SSE streaming responses, and 71% test coverage (92% on core business logic)</li>
+                <li>Developed production-grade database schemas with Pydantic V2 validation, Alembic migrations, RLS policies, and full-text search indexes</li>
+                <li>Acted as technical point of contact in client and advisory meetings, communicating complex architectural concepts and project roadmaps</li>
               </ul>
             </div>
 
@@ -102,6 +104,47 @@ const Experience = () => {
                 <li>Real-time video segmentation with MediaPipe</li>
                 <li>Fine-tuned GPT-3.5-turbo for specialized NLP tasks</li>
               </ul>
+            </div>
+          </div>
+
+          {/* Volunteer Experience */}
+          <div className="mt-12">
+            <div className="font-mono text-sm text-gruvbox-green mb-6">
+              <span className="text-gruvbox-fg4">$</span> cat volunteer-experience.log
+            </div>
+
+            <div className="space-y-4">
+              {/* Red Hen Lab */}
+              <div className="gruvbox-card border-l-4 border-gruvbox-purple">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-3">
+                  <div>
+                    <h3 className="text-xl font-bold text-gruvbox-fg0">Red Hen Lab</h3>
+                    <p className="text-gruvbox-purple font-mono">Volunteer Researcher/Contributor</p>
+                  </div>
+                  <span className="text-gruvbox-fg4 font-mono text-sm">Feb 2025 - Present</span>
+                </div>
+                <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
+                  <li>Co-authored research paper "Frame Blending Is Essential For Advancing Creative Generative AI" with Prof. Mark Turner for cognitive science research</li>
+                  <li>Developed TalentScout proof-of-concept multi-agent system using LangGraph supervisor pattern with 5 specialized agents and RAG for intelligent candidate-opportunity matching</li>
+                  <li>Implemented architectural improvements to Frame Blender framework, enhancing multi-modal data processing performance for distributed research team</li>
+                </ul>
+              </div>
+
+              {/* IIT Hyderabad */}
+              <div className="gruvbox-card border-l-4 border-gruvbox-blue">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-3">
+                  <div>
+                    <h3 className="text-xl font-bold text-gruvbox-fg0">IIT Hyderabad</h3>
+                    <p className="text-gruvbox-blue font-mono">Volunteer Researcher/Contributor</p>
+                  </div>
+                  <span className="text-gruvbox-fg4 font-mono text-sm">Jan 2025 - Present</span>
+                </div>
+                <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
+                  <li>Prototyping warzone-focused object detection pipeline with Detectron2 and ConvNeXt backbone for camouflage, partial occlusion, and environmental challenges</li>
+                  <li>Experimenting with advanced data augmentation (dust, smoke, low-light) to improve model generalization in early-stage R&D with limited dataset</li>
+                  <li>Investigating methods for scaling to thousands of images and optimizing real-time inference performance</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
