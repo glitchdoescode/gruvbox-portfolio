@@ -12,18 +12,24 @@ const projects = [
     featured: true,
   },
   {
+    title: 'Akinator Clone - LangGraph',
+    description: 'Full-stack AI guessing game with LangGraph single agent + tools pattern. Multi-LLM support (Gemini 2.5 Flash, OpenAI GPT) and Tavily web search for character research.',
+    tech: ['LangGraph', 'React', 'FastAPI', 'Gemini 2.5', 'Tavily'],
+    github: 'https://github.com/glitchdoescode/akinator-game',
+  },
+  {
     title: 'Krishna Diagnostics AI',
     description: 'AI business assistant with LangGraph 2-node pattern for multi-channel integration (WhatsApp, Instagram, Web, CRMs). Healthcare workflow management with 6 specialized workflows.',
     tech: ['LangGraph', 'FastAPI', 'PostgreSQL', 'Gemini', 'Redis'],
     github: 'https://github.com/pupiltree/krsna-d',
-    demo: 'http://104.197.233.188:8000/static/demo-chat.html',
+    demo: 'http://35.202.192.250:8000/static/demo-chat.html',
     featured: true,
   },
   {
     title: 'Rakht Setu (4th Place AI-for-Good)',
     description: 'Production-ready AI blood donation platform securing 4th place in national hackathon. LangGraph multi-agent system with RAG-enhanced medical screening achieving 85%+ accuracy, <30s emergency response time, and 92% bridge donor coordination success rate. Features guest user fast-track (38% conversion) and Docker deployment on Azure.',
     tech: ['LangGraph', 'FastAPI', 'ChromaDB', 'PostgreSQL', 'Redis', 'Gemini', 'Azure'],
-    github: 'https://github.com/glitchdoescode/ai-for-good',
+    github: 'https://github.com/glitchdoescode/rakht-setu',
     featured: true,
   },
   {
@@ -31,12 +37,6 @@ const projects = [
     description: 'Advanced AI internship opportunity generator using LangGraph supervisor pattern with 5 specialized agents: Company Analyzer, Opportunity Synthesizer, Proposal Generator, Candidate Matcher, and Supervisor. Features semantic matching with FAISS vector database, RAG implementation, and intelligent candidate-opportunity pairing with Google Gemini 2.0 Flash.',
     tech: ['LangGraph', 'Multi-Agent', 'Gemini 2.0', 'FAISS', 'RAG', 'Streamlit'],
     github: 'https://github.com/glitchdoescode/talentscout',
-  },
-  {
-    title: 'Akinator Clone - LangGraph',
-    description: 'Full-stack AI guessing game with LangGraph single agent + tools pattern. Multi-LLM support (Gemini 2.5 Flash, OpenAI GPT) and Tavily web search for character research.',
-    tech: ['LangGraph', 'React', 'FastAPI', 'Gemini 2.5', 'Tavily'],
-    github: 'https://github.com/glitchdoescode/akinator-game',
   },
 ];
 
