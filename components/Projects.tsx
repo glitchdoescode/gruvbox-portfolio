@@ -23,7 +23,7 @@ const projects = [
     title: 'Rakht Setu (4th Place AI-for-Good)',
     description: 'Production-ready AI blood donation platform securing 4th place in national hackathon. LangGraph multi-agent system with RAG-enhanced medical screening achieving 85%+ accuracy, <30s emergency response time, and 92% bridge donor coordination success rate. Features guest user fast-track (38% conversion) and Docker deployment on Azure.',
     tech: ['LangGraph', 'FastAPI', 'ChromaDB', 'PostgreSQL', 'Redis', 'Gemini', 'Azure'],
-    github: 'https://github.com/glitchdoescode/rakht-setu',
+    github: 'https://github.com/glitchdoescode/ai-for-good',
     featured: true,
   },
   {
