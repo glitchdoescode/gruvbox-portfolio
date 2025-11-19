@@ -140,7 +140,7 @@ const Contact = () => {
                   <span className="font-mono text-sm">Available for opportunities</span>
                 </p>
                 <p className="text-sm text-gruvbox-fg3">
-                  Open to any software engineering roles, including AI/ML Engineering, Backend Development, Full-Stack, and Production GenAI Applications.
+                  Open to any software engineering roles, including AI/ML Engineering, Backend Development, Full-Stack, Platform Engineering, Infrastructure, and Production GenAI Applications.
                 </p>
               </div>
             </div>
