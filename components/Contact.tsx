@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaGlobe } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaGlobe, FaPhone } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -94,6 +94,19 @@ const Contact = () => {
                       className="text-gruvbox-fg hover:text-gruvbox-orange transition-colors font-mono"
                     >
                       dks91@case.edu
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <FaPhone className="text-2xl text-gruvbox-orange" />
+                  <div>
+                    <p className="text-gruvbox-fg4 font-mono text-xs">Phone</p>
+                    <a
+                      href="tel:+919179687775"
+                      className="text-gruvbox-fg hover:text-gruvbox-orange transition-colors font-mono"
+                    >
+                      +91 9179687775
                     </a>
                   </div>
                 </div>

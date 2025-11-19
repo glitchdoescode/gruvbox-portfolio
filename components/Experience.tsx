@@ -100,9 +100,12 @@ const Experience = () => {
                 <span className="text-gruvbox-fg4 font-mono text-sm">May 2024 - Sept 2024</span>
               </div>
               <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
-                <li>Workflow automation eliminating 85-95% of manual tasks</li>
-                <li>Real-time video segmentation with MediaPipe</li>
-                <li>Fine-tuned GPT-3.5-turbo for specialized NLP tasks</li>
+                <li>Spearheaded command-line workflow automation tool using Bash, Python, and JavaScript, eliminating 85-95% of manual tasks and boosting engineering team productivity</li>
+                <li>Deployed Raspberry Pi-based web server using Nginx and Ngrok for secure remote SSH tunneling, significantly improving system accessibility and reliability</li>
+                <li>Designed automated disk imaging utility in Bash for USB drive flashing with custom configurations, increasing deployment speed and reducing error rates</li>
+                <li>Pioneered real-time video segmentation and motion tracking proof-of-concept using Python and MediaPipe, enabling advanced analytics and visualizations</li>
+                <li>Fine-tuned GPT-3.5-turbo with JSONL datasets and OpenAI APIs, elevating platform's conversational capabilities for specialized NLP tasks</li>
+                <li>Implemented robust CI/CD pipelines using Git and Terraform for automated model deployments, reducing downtime and accelerating updates</li>
               </ul>
             </div>
           </div>

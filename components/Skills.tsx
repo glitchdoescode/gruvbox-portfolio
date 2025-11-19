@@ -1,16 +1,18 @@
 'use client';
 
 import React from 'react';
-import { SiPython, SiJavascript, SiReact, SiNextdotjs, SiDocker, SiKubernetes, SiPostgresql, SiRedis, SiFastapi, SiTensorflow, SiPytorch, SiGooglecloud } from 'react-icons/si';
+import { SiPython, SiJavascript, SiReact, SiNextdotjs, SiDocker, SiKubernetes, SiPostgresql, SiRedis, SiFastapi, SiTensorflow, SiPytorch, SiGooglecloud, SiCplusplus } from 'react-icons/si';
 
 const skillCategories = [
   {
     category: 'AI & ML',
     color: 'orange',
     skills: [
+      { name: 'Multi-Agent Systems', icon: <SiPython /> },
       { name: 'LangGraph', icon: <SiPython /> },
       { name: 'LangChain', icon: <SiPython /> },
       { name: 'RAG', icon: <SiPython /> },
+      { name: 'LLMs', icon: <SiPython /> },
       { name: 'NLP', icon: <SiPython /> },
       { name: 'TensorFlow', icon: <SiTensorflow /> },
       { name: 'PyTorch', icon: <SiPytorch /> },
@@ -45,6 +47,7 @@ const skillCategories = [
       { name: 'GCP', icon: <SiGooglecloud /> },
       { name: 'Kubernetes', icon: <SiKubernetes /> },
       { name: 'Docker', icon: <SiDocker /> },
+      { name: 'CI/CD', icon: <SiGooglecloud /> },
       { name: 'Terraform', icon: <SiGooglecloud /> },
     ],
   },
@@ -95,10 +98,10 @@ const Skills = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm font-mono text-gruvbox-fg3">
             {[
-              'Git', 'Linux', 'ChromaDB', 'Qdrant', 'FAISS',
+              'Git', 'Linux', 'C/C++', 'JavaScript', 'ChromaDB', 'Qdrant', 'FAISS',
               'Grafana', 'Prometheus', 'Loki', 'gRPC', 'MCP Protocol',
               'Alembic', 'Pydantic', 'Supabase', 'Nginx', 'Bash',
-              'OpenCV', 'Streamlit', 'Model Fine-tuning', 'Prompt Engineering',
+              'OpenCV', 'Streamlit', 'Model Fine-tuning', 'Prompt Engineering', 'GitHub Actions',
             ].map((tool, idx) => (
               <div key={idx} className="flex items-center gap-2 hover:text-gruvbox-orange transition-colors cursor-default">
                 <span className="text-gruvbox-orange">•</span>

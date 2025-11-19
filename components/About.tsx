@@ -118,6 +118,50 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        {/* Achievements Section */}
+        <div className="mt-12 gruvbox-card border-gruvbox-yellow">
+          <div className="font-mono text-sm text-gruvbox-yellow mb-6">
+            <span className="text-gruvbox-fg4">$</span> cat achievements.log
+          </div>
+
+          <div className="space-y-3 text-gruvbox-fg2">
+            <div className="flex items-start gap-3">
+              <span className="text-gruvbox-yellow text-xl">🏆</span>
+              <p>
+                <span className="text-gruvbox-fg0 font-semibold">4th Place</span> in AI-for-Good Hackathon developing Rakht Setu - an agentic AI blood donation platform using LangGraph multi-agent architecture, reducing donor-patient matching time by 40%
+              </p>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <span className="text-gruvbox-orange text-xl">📝</span>
+              <p>
+                Co-authored research paper <span className="text-gruvbox-fg0 font-semibold">"Frame Blending Is Essential For Advancing Creative Generative AI"</span> with renowned cognitive scientist Prof. Mark Turner at Red Hen Lab
+              </p>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <span className="text-gruvbox-green text-xl">🎯</span>
+              <p>
+                Selected for <span className="text-gruvbox-fg0 font-semibold">Smart India Hackathon (SIH) 2024</span> and <span className="text-gruvbox-fg0 font-semibold">Top 10 at The Great India Hackathon - Jabalpur</span> with innovative healthcare projects
+              </p>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <span className="text-gruvbox-aqua text-xl">🤖</span>
+              <p>
+                Participated in <span className="text-gruvbox-fg0 font-semibold">UC Berkeley RDI's LLM Agents MOOC Hackathon</span>, developing ScheduleBot AI scheduling agent
+              </p>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <span className="text-gruvbox-purple text-xl">💻</span>
+              <p>
+                Maintained <span className="text-gruvbox-fg0 font-semibold">1,574+ GitHub contributions</span> in the last year, demonstrating sustained commitment to software development and open source
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
