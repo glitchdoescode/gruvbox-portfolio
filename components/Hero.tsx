@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-gruvbox-orange font-mono uppercase tracking-wide">
-              AI Engineer, Multi-Agent Systems
+              Software Craftsman
             </p>
 
             <div className="space-y-2 text-gruvbox-fg2 font-mono text-sm">
