@@ -103,17 +103,6 @@ const About = () => {
                     /glitchdoescode
                   </a>
                 </p>
-                <p className="flex items-center gap-2">
-                  <span className="text-gruvbox-orange">web:</span>
-                  <a
-                    href="https://glitchdoescode.github.io/myportfolio/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-gruvbox-orange transition-colors"
-                  >
-                    portfolio
-                  </a>
-                </p>
               </div>
             </div>
           </div>
@@ -157,7 +146,7 @@ const About = () => {
             <div className="flex items-start gap-3">
               <span className="text-gruvbox-purple text-xl">💻</span>
               <p>
-                Maintained <span className="text-gruvbox-fg0 font-semibold">1,574+ GitHub contributions</span> in the last year, demonstrating sustained commitment to software development and open source
+                Maintained <span className="text-gruvbox-fg0 font-semibold">1,648+ GitHub contributions</span> in the last year, demonstrating sustained commitment to software development and open source
               </p>
             </div>
           </div>

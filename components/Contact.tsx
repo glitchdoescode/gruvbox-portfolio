@@ -126,20 +126,6 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-4">
-                  <FaGlobe className="text-2xl text-gruvbox-orange" />
-                  <div>
-                    <p className="text-gruvbox-fg4 font-mono text-xs">Portfolio</p>
-                    <a
-                      href="https://glitchdoescode.github.io/myportfolio/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gruvbox-fg hover:text-gruvbox-orange transition-colors font-mono"
-                    >
-                      Portfolio Site
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 
