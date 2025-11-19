@@ -69,9 +69,9 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 rounded-full border-4 border-gruvbox-orange overflow-hidden box-glow">
                 <img
-                  src="/deepak.jpeg"
+                  src="/deepak.png"
                   alt="Deepak Kumar Soni"
-                  className="w-full h-full object-cover scale-150"
+                  className="w-full h-full object-cover scale-[2.2] object-[center_20%]"
                 />
               </div>
 
