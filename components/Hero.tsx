@@ -68,10 +68,11 @@ const Hero = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 rounded-full border-4 border-gruvbox-orange overflow-hidden box-glow">
-                {/* Placeholder for profile image */}
-                <div className="w-full h-full bg-gradient-to-br from-gruvbox-bg2 to-gruvbox-bg3 flex items-center justify-center">
-                  <span className="text-6xl text-gruvbox-orange font-mono">DKS</span>
-                </div>
+                <img
+                  src="/deepak.png"
+                  alt="Deepak Kumar Soni"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Terminal cursor effect */}
