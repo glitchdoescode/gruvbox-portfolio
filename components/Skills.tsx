@@ -9,7 +9,9 @@ const skillCategories = [
     color: 'orange',
     skills: [
       { name: 'LangGraph', icon: <SiPython /> },
+      { name: 'LangChain', icon: <SiPython /> },
       { name: 'RAG', icon: <SiPython /> },
+      { name: 'NLP', icon: <SiPython /> },
       { name: 'TensorFlow', icon: <SiTensorflow /> },
       { name: 'PyTorch', icon: <SiPytorch /> },
     ],
@@ -19,7 +21,9 @@ const skillCategories = [
     color: 'green',
     skills: [
       { name: 'FastAPI', icon: <SiFastapi /> },
+      { name: 'Flask', icon: <SiPython /> },
       { name: 'Python', icon: <SiPython /> },
+      { name: 'Node.js', icon: <SiJavascript /> },
       { name: 'PostgreSQL', icon: <SiPostgresql /> },
       { name: 'Redis', icon: <SiRedis /> },
     ],
@@ -94,6 +98,7 @@ const Skills = () => {
               'Git', 'Linux', 'ChromaDB', 'Qdrant', 'FAISS',
               'Grafana', 'Prometheus', 'Loki', 'gRPC', 'MCP Protocol',
               'Alembic', 'Pydantic', 'Supabase', 'Nginx', 'Bash',
+              'OpenCV', 'Streamlit', 'Model Fine-tuning', 'Prompt Engineering',
             ].map((tool, idx) => (
               <div key={idx} className="flex items-center gap-2 hover:text-gruvbox-orange transition-colors cursor-default">
                 <span className="text-gruvbox-orange">•</span>

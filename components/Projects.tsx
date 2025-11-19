@@ -5,6 +5,13 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
+    title: 'Workflow Automation Platform',
+    description: 'Production-grade fullstack platform enabling users to build, deploy, and manage conversational AI chatbots through an intuitive dashboard. Features 4 FastAPI microservices: Identity Management, PRD Builder (AI-assisted PRD generation), Config Agent (intelligent workflow configuration), and LangGraph Chatbot Runtime with Gemini 2.5. Monorepo architecture with Next.js 14 frontend, Supabase PostgreSQL RLS, Qdrant vector DB, Redis pub/sub, and complete Docker Compose local dev environment.',
+    tech: ['LangGraph', 'Next.js 14', 'FastAPI', 'Supabase', 'Qdrant', 'Redis', 'Gemini 2.5', 'Terraform'],
+    github: 'https://github.com/glitchdoescode/workflow-automation',
+    featured: true,
+  },
+  {
     title: 'Krishna Diagnostics AI',
     description: 'AI business assistant with LangGraph 2-node pattern for multi-channel integration (WhatsApp, Instagram, Web, CRMs). Healthcare workflow management with 6 specialized workflows.',
     tech: ['LangGraph', 'FastAPI', 'PostgreSQL', 'Gemini', 'Redis'],
@@ -13,22 +20,23 @@ const projects = [
     featured: true,
   },
   {
-    title: 'Workflow Automation Platform',
-    description: 'Fullstack AI-powered platform with Next.js 14, FastAPI microservices, LangGraph agents for PRD Builder and Config Agent. Multi-tenant architecture with Supabase RLS.',
-    tech: ['LangGraph', 'Next.js 14', 'FastAPI', 'Supabase', 'Qdrant'],
-    github: 'https://github.com/glitchdoescode/workflow-automation',
+    title: 'Rakht Setu (4th Place AI-for-Good)',
+    description: 'Production-ready AI blood donation platform securing 4th place in national hackathon. LangGraph multi-agent system with RAG-enhanced medical screening achieving 85%+ accuracy, <30s emergency response time, and 92% bridge donor coordination success rate. Features guest user fast-track (38% conversion) and Docker deployment on Azure.',
+    tech: ['LangGraph', 'FastAPI', 'ChromaDB', 'PostgreSQL', 'Redis', 'Gemini', 'Azure'],
+    github: 'https://github.com/glitchdoescode/rakht-setu',
     featured: true,
+  },
+  {
+    title: 'TalentScout Multi-Agent PoC',
+    description: 'Advanced AI internship opportunity generator using LangGraph supervisor pattern with 5 specialized agents: Company Analyzer, Opportunity Synthesizer, Proposal Generator, Candidate Matcher, and Supervisor. Features semantic matching with FAISS vector database, RAG implementation, and intelligent candidate-opportunity pairing with Google Gemini 2.0 Flash.',
+    tech: ['LangGraph', 'Multi-Agent', 'Gemini 2.0', 'FAISS', 'RAG', 'Streamlit'],
+    github: 'https://github.com/glitchdoescode/talentscout',
   },
   {
     title: 'Akinator Clone - LangGraph',
     description: 'Full-stack AI guessing game with LangGraph single agent + tools pattern. Multi-LLM support (Gemini 2.5 Flash, OpenAI GPT) and Tavily web search for character research.',
     tech: ['LangGraph', 'React', 'FastAPI', 'Gemini 2.5', 'Tavily'],
     github: 'https://github.com/glitchdoescode/akinator-game',
-  },
-  {
-    title: 'Rakht Setu (4th Place)',
-    description: 'AI-for-Good Hackathon winner. Agentic AI blood donation platform using LangGraph multi-agent architecture (5-agent supervisor pattern). Reduced matching time by 40%.',
-    tech: ['LangGraph', 'Multi-Agent', 'Python', 'Healthcare AI'],
   },
 ];
 
