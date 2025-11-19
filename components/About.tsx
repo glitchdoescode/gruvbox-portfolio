@@ -1,0 +1,124 @@
+'use client';
+
+import React from 'react';
+
+const About = () => {
+  return (
+    <section id="about" className="min-h-screen flex items-center justify-center px-4 md:px-8 py-20">
+      <div className="max-w-6xl w-full">
+        <h2 className="section-title">About Me</h2>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Left: Main description */}
+          <div className="gruvbox-card">
+            <div className="font-mono text-sm text-gruvbox-orange mb-4">
+              <span className="text-gruvbox-fg4">$</span> cat about.txt
+            </div>
+
+            <div className="space-y-4 text-gruvbox-fg2">
+              <p>
+                AI Engineer specializing in multi-agent systems and production GenAI applications.
+                Experienced in building enterprise-grade <span className="text-gruvbox-orange font-mono">LangGraph</span> architectures,
+                <span className="text-gruvbox-orange font-mono"> RAG pipelines</span>, and scalable
+                <span className="text-gruvbox-orange font-mono"> FastAPI</span> backends.
+              </p>
+
+              <p>
+                Currently serving as <span className="text-gruvbox-green font-semibold">Founding Engineer at FIKA AI Research Lab</span>,
+                where I've contributed <span className="text-gruvbox-yellow font-bold">676+ commits in 2025</span> building
+                serverless workflow automation with LangGraph multi-agent orchestration.
+              </p>
+
+              <p>
+                Co-authored research paper submitted to <span className="text-gruvbox-aqua font-bold">NeurIPS 2025</span> Position Paper Track
+                with Prof. Mark Turner on cognitive AI systems and frame blending theory.
+              </p>
+            </div>
+          </div>
+
+          {/* Right: Quick Stats */}
+          <div className="space-y-4">
+            <div className="gruvbox-card">
+              <div className="font-mono text-sm text-gruvbox-orange mb-4">
+                <span className="text-gruvbox-fg4">$</span> ls -la achievements/
+              </div>
+
+              <div className="space-y-3 text-gruvbox-fg2 font-mono text-sm">
+                <div className="flex items-start gap-3">
+                  <span className="text-gruvbox-yellow">●</span>
+                  <div>
+                    <p className="text-gruvbox-fg0 font-semibold">676+ Commits @ FIKA</p>
+                    <p className="text-gruvbox-fg4 text-xs">Production AI systems</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <span className="text-gruvbox-aqua">●</span>
+                  <div>
+                    <p className="text-gruvbox-fg0 font-semibold">NeurIPS 2025 Researcher</p>
+                    <p className="text-gruvbox-fg4 text-xs">Frame Blending & Creative AI</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <span className="text-gruvbox-green">●</span>
+                  <div>
+                    <p className="text-gruvbox-fg0 font-semibold">4th Place AI-for-Good</p>
+                    <p className="text-gruvbox-fg4 text-xs">Multi-agent healthcare platform</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <span className="text-gruvbox-orange">●</span>
+                  <div>
+                    <p className="text-gruvbox-fg0 font-semibold">1,574+ GitHub Contributions</p>
+                    <p className="text-gruvbox-fg4 text-xs">Open source & production work</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="gruvbox-card">
+              <div className="font-mono text-sm text-gruvbox-orange mb-4">
+                <span className="text-gruvbox-fg4">$</span> echo $CONTACT
+              </div>
+
+              <div className="space-y-2 text-gruvbox-fg2 font-mono text-sm">
+                <p className="flex items-center gap-2">
+                  <span className="text-gruvbox-orange">@</span>
+                  <a href="mailto:dks91@case.edu" className="hover:text-gruvbox-orange transition-colors">
+                    dks91@case.edu
+                  </a>
+                </p>
+                <p className="flex items-center gap-2">
+                  <span className="text-gruvbox-orange">github:</span>
+                  <a
+                    href="https://github.com/glitchdoescode"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gruvbox-orange transition-colors"
+                  >
+                    /glitchdoescode
+                  </a>
+                </p>
+                <p className="flex items-center gap-2">
+                  <span className="text-gruvbox-orange">web:</span>
+                  <a
+                    href="https://glitchdoescode.github.io/myportfolio/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-gruvbox-orange transition-colors"
+                  >
+                    portfolio
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;

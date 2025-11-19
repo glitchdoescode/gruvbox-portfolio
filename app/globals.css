@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  * {
+    @apply border-gruvbox-bg3;
+  }
+
+  body {
+    @apply bg-gruvbox-bg0 text-gruvbox-fg font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .terminal-border {
+    @apply border-2 border-gruvbox-orange rounded-lg shadow-lg;
+  }
+
+  .gruvbox-card {
+    @apply bg-gruvbox-bg1 border-2 border-gruvbox-bg3 rounded-lg p-6 hover:border-gruvbox-orange transition-all duration-300;
+  }
+
+  .gruvbox-button {
+    @apply px-6 py-2 bg-transparent border-2 border-gruvbox-orange text-gruvbox-orange font-mono uppercase tracking-wider hover:bg-gruvbox-orange hover:text-gruvbox-bg0 transition-all duration-300;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gruvbox-fg0 font-mono uppercase tracking-wide border-l-4 border-gruvbox-orange pl-4 mb-8;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(254, 128, 25, 0.5);
+  }
+
+  .box-glow {
+    box-shadow: 0 0 20px rgba(254, 128, 25, 0.3);
+  }
+}
