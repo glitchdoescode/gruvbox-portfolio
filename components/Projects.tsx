@@ -116,8 +116,8 @@ const Projects = () => {
               <p className="text-gruvbox-fg3 font-mono text-sm mt-2">Commits @ FIKA (2025)</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-gruvbox-green font-mono">1,648+</p>
-              <p className="text-gruvbox-fg3 font-mono text-sm mt-2">GitHub Contributions</p>
+              <p className="text-4xl font-bold text-gruvbox-green font-mono">1,619+</p>
+              <p className="text-gruvbox-fg3 font-mono text-sm mt-2">Contributions (2025)</p>
             </div>
             <div>
               <p className="text-4xl font-bold text-gruvbox-aqua font-mono">10+</p>

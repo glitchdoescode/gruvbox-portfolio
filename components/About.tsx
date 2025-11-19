@@ -49,8 +49,8 @@ const About = () => {
                 <div className="flex items-start gap-3">
                   <span className="text-gruvbox-yellow">●</span>
                   <div>
-                    <p className="text-gruvbox-fg0 font-semibold">676+ Commits @ FIKA</p>
-                    <p className="text-gruvbox-fg4 text-xs">Production AI systems</p>
+                    <p className="text-gruvbox-fg0 font-semibold">1,619+ Contributions (2025)</p>
+                    <p className="text-gruvbox-fg4 text-xs">676+ commits @ FIKA AI</p>
                   </div>
                 </div>
 
@@ -146,7 +146,7 @@ const About = () => {
             <div className="flex items-start gap-3">
               <span className="text-gruvbox-purple">●</span>
               <p>
-                Maintained <span className="text-gruvbox-fg0 font-semibold">1,648+ GitHub contributions</span> in the last year, demonstrating sustained commitment to software development and open source
+                Maintained <span className="text-gruvbox-fg0 font-semibold">1,619+ GitHub contributions</span> in 2025, demonstrating sustained commitment to software development and open source
               </p>
             </div>
           </div>

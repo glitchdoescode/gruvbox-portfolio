@@ -38,7 +38,7 @@ const Hero = () => {
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>
-                676+ commits in 2025
+                1,619+ contributions in 2025
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>
