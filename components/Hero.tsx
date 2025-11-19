@@ -42,7 +42,7 @@ const Hero = () => {
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>
-                NeurIPS 2025 Researcher
+                Contributor @ Red Hen Lab
               </p>
             </div>
 
