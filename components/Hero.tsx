@@ -46,13 +46,21 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 flex gap-4">
               <button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="gruvbox-button"
               >
                 View Work
               </button>
+              <a
+                href="https://drive.google.com/file/d/1YlLVS3k1IZAflh-L6iE41vR-d5C8UdVi/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="gruvbox-button"
+              >
+                Resume
+              </a>
             </div>
           </div>
 
