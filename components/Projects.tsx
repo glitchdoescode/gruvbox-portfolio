@@ -8,7 +8,6 @@ const projects = [
     title: 'Workflow Automation Platform',
     description: 'Production-grade fullstack platform enabling users to build, deploy, and manage conversational AI chatbots through an intuitive dashboard. Features 4 FastAPI microservices: Identity Management, PRD Builder (AI-assisted PRD generation), Config Agent (intelligent workflow configuration), and LangGraph Chatbot Runtime with Gemini 2.5. Monorepo architecture with Next.js 14 frontend, Supabase PostgreSQL RLS, Qdrant vector DB, Redis pub/sub, and complete Docker Compose local dev environment.',
     tech: ['LangGraph', 'Next.js 14', 'FastAPI', 'Supabase', 'Qdrant', 'Redis', 'Gemini 2.5', 'Terraform'],
-    github: 'https://github.com/glitchdoescode/workflow-automation',
     featured: true,
   },
   {
@@ -18,11 +17,9 @@ const projects = [
     github: 'https://github.com/glitchdoescode/akinator-game',
   },
   {
-    title: 'Krishna Diagnostics AI',
+    title: 'Healthcare AI Assistant',
     description: 'AI business assistant with LangGraph 2-node pattern for multi-channel integration (WhatsApp, Instagram, Web, CRMs). Healthcare workflow management with 6 specialized workflows.',
     tech: ['LangGraph', 'FastAPI', 'PostgreSQL', 'Gemini', 'Redis'],
-    github: 'https://github.com/pupiltree/krsna-d',
-    demo: 'http://35.202.192.250:8000/static/demo-chat.html',
     featured: true,
   },
   {
