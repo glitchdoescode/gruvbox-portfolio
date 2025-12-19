@@ -3,7 +3,16 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
-const projects = [
+interface Project {
+  title: string;
+  description: string;
+  tech: string[];
+  github?: string;
+  demo?: string;
+  featured?: boolean;
+}
+
+const projects: Project[] = [
   {
     title: 'Workflow Automation Platform',
     description: 'Production-grade fullstack platform enabling users to build, deploy, and manage conversational AI chatbots through an intuitive dashboard. Features 4 FastAPI microservices: Identity Management, PRD Builder (AI-assisted PRD generation), Config Agent (intelligent workflow configuration), and LangGraph Chatbot Runtime with Gemini 2.5. Monorepo architecture with Next.js 14 frontend, Supabase PostgreSQL RLS, Qdrant vector DB, Redis pub/sub, and complete Docker Compose local dev environment.',
