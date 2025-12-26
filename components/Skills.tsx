@@ -29,13 +29,14 @@ const skillCategories = [
     ],
   },
   {
-    category: 'AI Infrastructure',
+    category: 'Generative AI & Agents',
     color: 'aqua',
     skills: [
       { name: 'LangGraph', icon: <SiPython /> },
-      { name: 'Vector DBs', icon: <SiPython /> },
+      { name: 'Multi-Agent Systems', icon: <SiPython /> },
       { name: 'RAG Pipelines', icon: <SiPython /> },
-      { name: 'Model Serving', icon: <SiPython /> },
+      { name: 'LLM Orchestration', icon: <SiPython /> },
+      { name: 'Vector DBs', icon: <SiPython /> },
     ],
   },
   {

@@ -17,10 +17,9 @@ const About = () => {
 
             <div className="space-y-4 text-gruvbox-fg2">
               <p>
-                Backend & Infrastructure Engineer specializing in building scaled distributed systems and production-grade microservices.
-                Experienced in architecting fault-tolerant <span className="text-gruvbox-orange font-mono">Backend Solutions</span> using
-                <span className="text-gruvbox-orange font-mono"> FastAPI</span>, managing cloud infrastructure with
-                <span className="text-gruvbox-orange font-mono"> Terraform</span>, and optimizing high-throughput systems.
+                Backend & AI Engineer specializing in building scalable distributed systems for <span className="text-gruvbox-orange font-mono">Generative AI</span> applications.
+                Experienced in orchestrating <span className="text-gruvbox-orange font-mono">Multi-Agent Systems</span> (LangGraph), architecting fault-tolerant
+                <span className="text-gruvbox-orange font-mono"> Microservices</span>, and managing cloud infrastructure.
               </p>
 
               <p>
@@ -151,7 +150,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 
