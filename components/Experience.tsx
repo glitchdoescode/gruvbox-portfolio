@@ -82,7 +82,7 @@ const Experience = () => {
                 <span className="text-gruvbox-fg4 font-mono text-sm">Oct 2024 - Dec 2025</span>
               </div>
               <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
-                <li>Architected a distributed microservices platform (4 FastAPI services) handling 100+ concurrent stateful conversations, deployed on GKE with Terraform and Docker</li>
+                <li>Architected a distributed microservices platform (4 FastAPI services) handling 100+ concurrent stateful conversations using Docker and GCP Pub/Sub</li>
                 <li>Engineered a zero-downtime configuration hot-reload system using Redis Pub/Sub and in-memory caching, reducing deployment friction and enabling sub-second config propagation across all instances</li>
                 <li>Designed a multi-tenant database architecture using PostgreSQL Row-Level Security (RLS) and Qdrant vector namespaces, ensuring strict data isolation for enterprise clients</li>
                 <li>Implemented resilience patterns including connection pooling (AsyncPG), circuit breakers, and exponential backoff retry logic, achieving 99.9% system availability</li>
