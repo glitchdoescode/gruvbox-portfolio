@@ -140,7 +140,7 @@ const Experience = () => {
                     <h3 className="text-xl font-bold text-gruvbox-fg0">IIT Hyderabad</h3>
                     <p className="text-gruvbox-blue font-mono">Volunteer Researcher/Contributor</p>
                   </div>
-                  <span className="text-gruvbox-fg4 font-mono text-sm">Jan 2025 - Present</span>
+                  <span className="text-gruvbox-fg4 font-mono text-sm">Jan 2025 - Dec 2025</span>
                 </div>
                 <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
                   <li>Prototyping warzone-focused object detection pipeline with Detectron2 and ConvNeXt backbone for camouflage, partial occlusion, and environmental challenges</li>

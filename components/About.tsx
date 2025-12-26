@@ -30,9 +30,9 @@ const About = () => {
               </p>
 
               <p>
-                Active contributor to <span className="text-gruvbox-aqua font-bold">Red Hen Lab</span> (Case Western Reserve University)
-                on cognitive science research and <span className="text-gruvbox-purple font-bold">IIT Hyderabad</span> on
-                computer vision for warzone object detection with Detectron2.
+                Contributor to <span className="text-gruvbox-aqua font-bold">Red Hen Lab</span> (Case Western Reserve University)
+                on cognitive science research and formerly at <span className="text-gruvbox-purple font-bold">IIT Hyderabad</span> on
+                computer vision for warzone object detection.
               </p>
             </div>
           </div>
