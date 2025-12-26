@@ -17,13 +17,14 @@ const About = () => {
 
             <div className="space-y-4 text-gruvbox-fg2">
               <p>
-                Backend & AI Engineer specializing in building scalable distributed systems for <span className="text-gruvbox-orange font-mono">Generative AI</span> applications.
-                Experienced in orchestrating <span className="text-gruvbox-orange font-mono">Multi-Agent Systems</span> (LangGraph), architecting fault-tolerant
-                <span className="text-gruvbox-orange font-mono"> Microservices</span>, and managing cloud infrastructure.
+                AI & Infrastructure Engineer specializing in building scaled distributed systems for <span className="text-gruvbox-orange font-mono">Production GenAI</span> applications.
+                Experienced in architecting fault-tolerant <span className="text-gruvbox-orange font-mono">Backend Solutions</span> using
+                <span className="text-gruvbox-orange font-mono"> FastAPI</span>, managing cloud infrastructure with
+                <span className="text-gruvbox-orange font-mono"> Terraform</span>, and optimizing high-throughput AI systems.
               </p>
 
               <p>
-                Currently serving as <span className="text-gruvbox-green font-semibold">Founding Backend Engineer at FIKA AI</span>,
+                Currently serving as <span className="text-gruvbox-green font-semibold">Founding AI Engineer at FIKA AI</span>,
                 where I've architected a <span className="text-gruvbox-yellow font-bold">distributed microservices platform</span> leveraging
                 Redis Pub/Sub for zero-downtime hot-reloads and Google Cloud Pub/Sub for event-driven workflows.
               </p>
@@ -150,7 +151,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section >
+    </section>
   );
 };
 
