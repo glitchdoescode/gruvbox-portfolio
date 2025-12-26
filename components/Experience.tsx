@@ -82,11 +82,11 @@ const Experience = () => {
                 <span className="text-gruvbox-fg4 font-mono text-sm">Oct 2024 - Present</span>
               </div>
               <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
-                <li>Architected serverless event-driven workflow automation platform with Google Cloud Pub/Sub, FastAPI microservices, and LangGraph multi-agent orchestration for PRD-to-chatbot deployment in under 10 minutes</li>
-                <li>Designed multi-tenant architecture with PostgreSQL RLS, Qdrant vector database namespace isolation, and Redis configuration hot-reload achieving zero-downtime updates</li>
-                <li>Built AI conversational agents with Google Gemini, LangChain for natural language configuration, SSE streaming responses, and 71% test coverage (92% on core business logic)</li>
-                <li>Developed production-grade database schemas with Pydantic V2 validation, Alembic migrations, RLS policies, and full-text search indexes</li>
-                <li>Acted as technical point of contact in client and advisory meetings, communicating complex architectural concepts and project roadmaps</li>
+                <li>Architected a distributed microservices platform (4 FastAPI services) handling 100+ concurrent stateful conversations, deployed on GKE with Terraform and Docker</li>
+                <li>Engineered a zero-downtime configuration hot-reload system using Redis Pub/Sub and in-memory caching, reducing deployment friction and enabling sub-second config propagation across all instances</li>
+                <li>Designed a multi-tenant database architecture using PostgreSQL Row-Level Security (RLS) and Qdrant vector namespaces, ensuring strict data isolation for enterprise clients</li>
+                <li>Implemented resilience patterns including connection pooling (AsyncPG), circuit breakers, and exponential backoff retry logic, achieving 99.9% system availability</li>
+                <li>Built comprehensive CI/CD pipelines with GitHub Actions (71% test coverage), automating Docker builds and deployments to Google Cloud Run</li>
               </ul>
             </div>
 

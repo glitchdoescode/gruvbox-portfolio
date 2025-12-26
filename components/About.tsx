@@ -17,17 +17,16 @@ const About = () => {
 
             <div className="space-y-4 text-gruvbox-fg2">
               <p>
-                AI Engineer specializing in multi-agent systems and production GenAI applications.
-                Experienced in building enterprise-grade <span className="text-gruvbox-orange font-mono">LangGraph</span> architectures,
-                <span className="text-gruvbox-orange font-mono"> RAG pipelines</span>, and scalable
-                <span className="text-gruvbox-orange font-mono"> FastAPI</span> backends.
+                Backend & Infrastructure Engineer specializing in building scaled distributed systems and production-grade microservices.
+                Experienced in architecting fault-tolerant <span className="text-gruvbox-orange font-mono">Backend Solutions</span> using
+                <span className="text-gruvbox-orange font-mono"> FastAPI</span>, managing cloud infrastructure with
+                <span className="text-gruvbox-orange font-mono"> Terraform</span>, and optimizing high-throughput systems.
               </p>
 
               <p>
-                Currently serving as <span className="text-gruvbox-green font-semibold">Founding Engineer at FIKA AI Research Lab</span>,
-                where I've contributed <span className="text-gruvbox-yellow font-bold">676+ commits in 2025</span> architecting
-                a serverless event-driven workflow automation platform with Google Cloud Pub/Sub, FastAPI microservices, and
-                LangGraph for PRD-to-chatbot deployment in under 10 minutes.
+                Currently serving as <span className="text-gruvbox-green font-semibold">Founding Backend Engineer at FIKA AI</span>,
+                where I've architected a <span className="text-gruvbox-yellow font-bold">distributed microservices platform</span> leveraging
+                Redis Pub/Sub for zero-downtime hot-reloads and Google Cloud Pub/Sub for event-driven workflows.
               </p>
 
               <p>

@@ -1,54 +1,52 @@
 'use client';
 
 import React from 'react';
-import { SiPython, SiJavascript, SiReact, SiNextdotjs, SiDocker, SiKubernetes, SiPostgresql, SiRedis, SiFastapi, SiTensorflow, SiPytorch, SiGooglecloud, SiCplusplus } from 'react-icons/si';
+import { SiPython, SiJavascript, SiDocker, SiKubernetes, SiPostgresql, SiRedis, SiFastapi, SiGooglecloud } from 'react-icons/si';
 
 const skillCategories = [
   {
-    category: 'AI & ML',
+    category: 'Backend Architecture',
     color: 'orange',
     skills: [
-      { name: 'Multi-Agent Systems', icon: <SiPython /> },
-      { name: 'LangGraph', icon: <SiPython /> },
-      { name: 'LangChain', icon: <SiPython /> },
-      { name: 'RAG', icon: <SiPython /> },
-      { name: 'LLMs', icon: <SiPython /> },
-      { name: 'NLP', icon: <SiPython /> },
-      { name: 'TensorFlow', icon: <SiTensorflow /> },
-      { name: 'PyTorch', icon: <SiPytorch /> },
+      { name: 'FastAPI', icon: <SiFastapi /> },
+      { name: 'AsyncIO', icon: <SiPython /> },
+      { name: 'Redis Pub/Sub', icon: <SiRedis /> },
+      { name: 'Celery', icon: <SiPython /> },
+      { name: 'Message Queues', icon: <SiGooglecloud /> },
+      { name: 'PostgreSQL', icon: <SiPostgresql /> },
     ],
   },
   {
-    category: 'Backend',
+    category: 'Infrastructure',
     color: 'green',
     skills: [
-      { name: 'FastAPI', icon: <SiFastapi /> },
-      { name: 'Flask', icon: <SiPython /> },
-      { name: 'Python', icon: <SiPython /> },
-      { name: 'Node.js', icon: <SiJavascript /> },
-      { name: 'PostgreSQL', icon: <SiPostgresql /> },
-      { name: 'Redis', icon: <SiRedis /> },
+      { name: 'Docker', icon: <SiDocker /> },
+      { name: 'Kubernetes', icon: <SiKubernetes /> },
+      { name: 'Terraform', icon: <SiGooglecloud /> },
+      { name: 'GCP / Azure', icon: <SiGooglecloud /> },
+      { name: 'CI/CD', icon: <SiGooglecloud /> },
+      { name: 'Nginx', icon: <SiJavascript /> },
     ],
   },
   {
-    category: 'Frontend',
+    category: 'AI Infrastructure',
     color: 'aqua',
     skills: [
-      { name: 'React', icon: <SiReact /> },
-      { name: 'Next.js', icon: <SiNextdotjs /> },
-      { name: 'TypeScript', icon: <SiJavascript /> },
-      { name: 'Tailwind', icon: <SiReact /> },
+      { name: 'LangGraph', icon: <SiPython /> },
+      { name: 'Vector DBs', icon: <SiPython /> },
+      { name: 'RAG Pipelines', icon: <SiPython /> },
+      { name: 'Model Serving', icon: <SiPython /> },
     ],
   },
   {
-    category: 'Cloud & DevOps',
+    category: 'Languages & Tools',
     color: 'blue',
     skills: [
-      { name: 'GCP', icon: <SiGooglecloud /> },
-      { name: 'Kubernetes', icon: <SiKubernetes /> },
-      { name: 'Docker', icon: <SiDocker /> },
-      { name: 'CI/CD', icon: <SiGooglecloud /> },
-      { name: 'Terraform', icon: <SiGooglecloud /> },
+      { name: 'Python', icon: <SiPython /> },
+      { name: 'Bash', icon: <SiJavascript /> },
+      { name: 'SQL', icon: <SiPostgresql /> },
+      { name: 'Git', icon: <SiJavascript /> },
+      { name: 'Grafana', icon: <SiJavascript /> },
     ],
   },
 ];

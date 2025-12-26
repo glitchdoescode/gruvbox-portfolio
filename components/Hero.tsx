@@ -28,13 +28,13 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-gruvbox-orange font-mono uppercase tracking-wide">
-              Software Craftsman
+              Backend & Infrastructure Engineer
             </p>
 
             <div className="space-y-2 text-gruvbox-fg2 font-mono text-sm">
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>
-                Founding Engineer @ FIKA AI
+                Founding Backend Engineer @ FIKA AI
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>

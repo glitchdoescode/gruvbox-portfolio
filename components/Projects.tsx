@@ -14,35 +14,31 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Workflow Automation Platform',
-    description: 'Production-grade fullstack platform enabling users to build, deploy, and manage conversational AI chatbots through an intuitive dashboard. Features 4 FastAPI microservices: Identity Management, PRD Builder (AI-assisted PRD generation), Config Agent (intelligent workflow configuration), and LangGraph Chatbot Runtime with Gemini 2.5. Monorepo architecture with Next.js 14 frontend, Supabase PostgreSQL RLS, Qdrant vector DB, Redis pub/sub, and complete Docker Compose local dev environment.',
-    tech: ['LangGraph', 'Next.js 14', 'FastAPI', 'Supabase', 'Qdrant', 'Redis', 'Gemini 2.5', 'Terraform'],
-    featured: true,
-  },
-  {
-    title: 'Akinator Clone - LangGraph',
-    description: 'Full-stack AI guessing game with LangGraph single agent + tools pattern. Multi-LLM support (Gemini 2.5 Flash, OpenAI GPT) and Tavily web search for character research.',
-    tech: ['LangGraph', 'React', 'FastAPI', 'Gemini 2.5', 'Tavily'],
-    github: 'https://github.com/glitchdoescode/akinator-game',
-  },
-  {
-    title: 'Healthcare AI Assistant',
-    description: 'AI business assistant with LangGraph 2-node pattern for multi-channel integration (WhatsApp, Instagram, Web, CRMs). Healthcare workflow management with 6 specialized workflows.',
-    tech: ['LangGraph', 'FastAPI', 'PostgreSQL', 'Gemini', 'Redis'],
+    title: 'Krishna Diagnostics AI Assistant',
+    description: 'High-throughput backend handling multi-channel webhook events (Instagram/WhatsApp) with an AsyncIO message batching system (40% cost reduction). Replaced stateless DB queries with Redis-based session persistence (<5ms latency) and implemented Circuit Breaker patterns for resilience.',
+    tech: ['FastAPI', 'Redis', 'AsyncPG', 'Tenacity', 'LangGraph'],
+    github: 'https://github.com/pupiltree/krsna-d',
+    demo: 'http://104.197.233.188:8000/static/demo-chat.html',
     featured: true,
   },
   {
     title: 'Rakht Setu (4th Place AI-for-Good)',
-    description: 'Production-ready AI blood donation platform securing 4th place in national hackathon. LangGraph multi-agent system with RAG-enhanced medical screening achieving 85%+ accuracy, <30s emergency response time, and 92% bridge donor coordination success rate. Features guest user fast-track (38% conversion) and Docker deployment on Azure.',
-    tech: ['LangGraph', 'FastAPI', 'ChromaDB', 'PostgreSQL', 'Redis', 'Gemini', 'Azure'],
+    description: 'Mission-critical backend ensuring <30-second response latency for emergency blood requests. Parallelized geo-spatial searches using asyncio.gather and optimized donor matching with Haversine distance calculations. Features 5-collection RAG system with ChromaDB.',
+    tech: ['Python', 'Azure', 'Geo-Spatial', 'RAG', 'Redis'],
     github: 'https://github.com/glitchdoescode/rakht-setu',
     featured: true,
   },
   {
-    title: 'TalentScout Multi-Agent PoC',
-    description: 'Advanced AI internship opportunity generator using LangGraph supervisor pattern with 5 specialized agents: Company Analyzer, Opportunity Synthesizer, Proposal Generator, Candidate Matcher, and Supervisor. Features semantic matching with FAISS vector database, RAG implementation, and intelligent candidate-opportunity pairing with Google Gemini 2.0 Flash.',
-    tech: ['LangGraph', 'Multi-Agent', 'Gemini 2.0', 'FAISS', 'RAG', 'Streamlit'],
-    github: 'https://github.com/glitchdoescode/talentscout',
+    title: 'Capybara.ai',
+    description: 'Secure code execution sandbox for autonomous data analysis, allowing safe execution of arbitrary Python code on user-uploaded datasets. Orchestrated agent pipeline using LangGraph to breakdown complex business questions into executable SQL/Pandas operations.',
+    tech: ['Python', 'Docker', 'Pandas', 'LangChain'],
+    featured: false,
+  },
+  {
+    title: 'Workflow Automation Platform',
+    description: 'Distributed microservices platform (4 FastAPI services) handling 100+ concurrent stateful conversations. Features zero-downtime config hot-reload via Redis Pub/Sub, multi-tenant RLS architecture, and complete Docker Compose dev environment.',
+    tech: ['FastAPI', 'Redis Pub/Sub', 'Docker', 'GKE', 'Terraform', 'PostgreSQL'],
+    featured: false,
   },
 ];
 
