@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="space-y-2 text-gruvbox-fg2 font-mono text-sm">
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>
-                Founding AI & Backend Engineer @ FIKA AI
+                Ex-Founding AI & Backend Engineer @ FIKA AI
               </p>
               <p className="flex items-center gap-2">
                 <span className="text-gruvbox-orange">&gt;</span>

@@ -79,7 +79,7 @@ const Experience = () => {
                   <h3 className="text-xl font-bold text-gruvbox-fg0">FIKA AI Research Lab</h3>
                   <p className="text-gruvbox-orange font-mono">Founding Engineer</p>
                 </div>
-                <span className="text-gruvbox-fg4 font-mono text-sm">Oct 2024 - Present</span>
+                <span className="text-gruvbox-fg4 font-mono text-sm">Oct 2024 - Dec 2025</span>
               </div>
               <ul className="space-y-2 text-sm text-gruvbox-fg2 list-disc list-inside">
                 <li>Architected a distributed microservices platform (4 FastAPI services) handling 100+ concurrent stateful conversations, deployed on GKE with Terraform and Docker</li>

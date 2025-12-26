@@ -24,8 +24,8 @@ const About = () => {
               </p>
 
               <p>
-                Currently serving as <span className="text-gruvbox-green font-semibold">Founding AI Engineer at FIKA AI</span>,
-                where I've architected a <span className="text-gruvbox-yellow font-bold">distributed microservices platform</span> leveraging
+                Prev. served as <span className="text-gruvbox-green font-semibold">Founding AI Engineer at FIKA AI</span>,
+                where I architected a <span className="text-gruvbox-yellow font-bold">distributed microservices platform</span> leveraging
                 Redis Pub/Sub for zero-downtime hot-reloads and Google Cloud Pub/Sub for event-driven workflows.
               </p>
 
