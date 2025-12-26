@@ -17,8 +17,6 @@ const projects: Project[] = [
     title: 'Krishna Diagnostics AI Assistant',
     description: 'High-throughput backend handling multi-channel webhook events (Instagram/WhatsApp) with an AsyncIO message batching system (40% cost reduction). Replaced stateless DB queries with Redis-based session persistence (<5ms latency) and implemented Circuit Breaker patterns for resilience.',
     tech: ['FastAPI', 'Redis', 'AsyncPG', 'Tenacity', 'LangGraph'],
-    github: 'https://github.com/pupiltree/krsna-d',
-    demo: 'http://104.197.233.188:8000/static/demo-chat.html',
     featured: true,
   },
   {
