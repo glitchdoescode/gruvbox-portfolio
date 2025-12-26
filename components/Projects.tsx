@@ -32,12 +32,7 @@ const projects: Project[] = [
     tech: ['Python', 'Docker', 'Pandas', 'LangChain'],
     featured: false,
   },
-  {
-    title: 'Workflow Automation Platform',
-    description: 'Distributed microservices platform (4 FastAPI services) handling 100+ concurrent stateful conversations. Features zero-downtime config hot-reload via Redis Pub/Sub, multi-tenant RLS architecture, and complete Docker Compose dev environment.',
-    tech: ['FastAPI', 'Redis Pub/Sub', 'Docker', 'GKE', 'Terraform', 'PostgreSQL'],
-    featured: false,
-  },
+
 ];
 
 const Projects = () => {
