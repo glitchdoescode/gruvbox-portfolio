@@ -30,7 +30,7 @@ const projects: Project[] = [
     title: 'Capybara.ai',
     description: 'Secure code execution sandbox for autonomous data analysis, allowing safe execution of arbitrary Python code on user-uploaded datasets. Orchestrated agent pipeline using LangGraph to breakdown complex business questions into executable SQL/Pandas operations.',
     tech: ['Python', 'Docker', 'Pandas', 'LangChain'],
-    featured: false,
+    featured: true,
   },
 
 ];
